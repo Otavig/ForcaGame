@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container pt-5">
+        <div class="col-6 mx-auto border p-3">
+            <label class="form-label" for="">Insira a letra</label>
+            <input class="form-control" type="text" id="ipn_letra" maxlength="1" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$">
+            <div class="row m-0 pt-3 gap-1">
+                <button class="col btn btn-primary" id="btn_enviar">Enviar Letra</button>
+                <button class="col btn btn-secondary" id="btn_iniciar">Iniciar</button>
+            </div>
+        </div>
+
+        <div>
+            <div id="div_saida" class="row m-0 mt-5">
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
