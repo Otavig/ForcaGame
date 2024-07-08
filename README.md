@@ -11,16 +11,16 @@ Antes de tudo certifique de ter o Node
     https://nodejs.org/en
 Se não baixe e instale o NODE acima:
     
-### 1 Clone o repositório:
+### 1. Clone o repositório:
 
     git clone https://github.com/Otavig/ForcaGame.git
 
-### 2 Istale as dependências (express, cors e axios): 
+### 2. Istale as dependências (express, cors e axios): 
 
     npm install -Nome da depêndencia-
 Ou apenas digite `npm i` que automaticamente instala todas as dependências necessárias.
 
-### 3 Inicie o servidor:
+### 3. Inicie o servidor:
 
     node ./app.js
   
