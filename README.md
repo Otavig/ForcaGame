@@ -22,7 +22,7 @@ Ou apenas digite `npm i` que automaticamente instala todas as dependências nece
 
 ### 3. Inicie o servidor:
 
-    node ./app.js
+    node ./script.js
   
 ## Uso
 
