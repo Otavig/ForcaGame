@@ -15,7 +15,7 @@ Se não baixe e instale o NODE acima:
 
     git clone https://github.com/Otavig/ForcaGame.git
 
-### 2. Istale as dependências (express, cors e axios): 
+### 2. Faça a instalação das dependências:
 
     npm install -Nome da depêndencia-
 Ou apenas digite `npm i` que automaticamente instala todas as dependências necessárias.
